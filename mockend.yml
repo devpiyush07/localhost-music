@@ -2,7 +2,7 @@ models:
   Post:
     hasMany: [artist]
     fake:
-      _count: 4
+      _count: 10
       cover: { imageURL: [1920, 1080] }
       title: { loremWords: [5, 20] }
       body: { loremParagraphs: [10, 100] }
