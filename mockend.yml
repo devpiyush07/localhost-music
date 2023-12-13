@@ -1,8 +1,15 @@
-models:
-  Post:
-    hasMany: [artist]
-    fake:
-      _count: 4
-      cover: { imageURL: ["https://i.scdn.co/image/ab67616d00001e02ad40f4e70b2f2a2a6052d49d", "https://i.scdn.co/image/ab67616d00001e02ad40f4e70b2f2a2a6052d49d"] }
-      title: { name: ["Radha-Krsna Nama Sankirtana", "Radha-Krsna Nama Sankirtana"] }
-      body: { author: ["piyush", "Prithem"] }
+Post:
+  hasMany: [artist]
+  fake:
+    _count: 4
+    cover:
+      {
+        imageURL:
+          [
+            "https://i.scdn.co/image/ab67616d00001e02ad40f4e70b2f2a2a6052d49d",
+            "https://i.scdn.co/image/ab67616d00001e02ad40f4e70b2f2a2a6052d49d",
+          ],
+      }
+    title:
+      { name: ["Radha-Krsna Nama Sankirtana", "Radha-Krsna Nama Sankirtana"] }
+    body: { author: ["piyush", "Prithem"] }
