@@ -1,11 +1,11 @@
 models:
-Post:
-belongsTo: [artist]
-count: 4
+  Post:
+  belongsTo: [artist]
+  count: 4
 
 artist:
-hasMany: [Post]
-data:
+  hasMany: [Post]
+  data:
   {
     "artist":
       [
